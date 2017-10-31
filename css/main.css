@@ -90,7 +90,6 @@ h4.date {
   padding-top: 0px;
   padding-bottom: 0.1em;
   text-align: center;
-  padding-right: 1em;
 }
 h4 {
   font-family: 'Anton', sans-serif;
@@ -286,6 +285,7 @@ p.game-description {
   }
   .game-description {
     padding-left: 0.9em;
+    padding-right: 0.9em;
   }
   .menu {
     font-size: 1em;
