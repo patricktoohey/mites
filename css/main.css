@@ -7741,6 +7741,11 @@ div.fireonice {
   align-items: stretch;
   padding-bottom: 2em;
 }
+@media screen and (max-width: 575px) {
+  .game-challenge {
+    padding-right: 0.5em;
+  }
+}
 h1 {
   padding-top: 1em;
   font-size: 1.8em;
