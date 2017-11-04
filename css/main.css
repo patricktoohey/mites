@@ -7649,6 +7649,10 @@ a:hover {
   color: white;
   text-decoration: underline;
 }
+a.player {
+  color: #c8102e;
+  font-style: bold;
+}
 body {
   font-size: 100%;
   font-family: 'Saira Extra Condensed', sans-serif;
@@ -7759,7 +7763,8 @@ h1 a {
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   font-family: 'Anton', sans-serif;
   color: #c8102e;
 }
@@ -7810,6 +7815,26 @@ h4.player {
 @media screen and (max-width: 1200px) {
   h4 {
     padding-top: 0.5em;
+  }
+}
+h6 {
+  font-size: 2em;
+}
+@media screen and (max-width: 992px) {
+  h6 {
+    font-size: 1.8em;
+    margin-left: 0.1em;
+    padding-top: 1em;
+  }
+}
+@media screen and (max-width: 768px) {
+  h6 {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 572px) {
+  h6 {
+    margin-left: 0.4em;
   }
 }
 h5 {
@@ -8027,7 +8052,6 @@ footer nav {
   .achievements p {
     padding-left: 1em;
     padding-right: 1em;
-    display: block;
   }
   .reminder {
     padding-left: 2em;

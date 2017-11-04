@@ -19,6 +19,11 @@ a {
     }
 }
 
+a.player {
+    color: @mite-red;
+    font-style: bold;
+}
+
 body {
     font-size: 100%;
     font-family: @saira;
@@ -146,7 +151,8 @@ h1 {
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
     font-family: @anton;
     color: @mite-red;
 }
@@ -201,6 +207,24 @@ h4 {
         }
         @media (max-width: 1200px) {
             padding-top: 0.5em;
+        }
+    }
+}
+
+h6 {
+    font-size: 2em;
+
+    @media screen {
+        @media (max-width: 992px) {
+            font-size: 1.8em;
+            margin-left: 0.1em;
+            padding-top: 1em;
+        }
+        @media (max-width: 768px) {
+            font-size: 1.5em;
+        }
+        @media (max-width: 572px) {
+            margin-left: 0.4em;
         }
     }
 }
@@ -436,7 +460,6 @@ footer {
     .achievements p {
         padding-left: 1em;
         padding-right: 1em;
-        display: block;
     }
 
     .reminder {
